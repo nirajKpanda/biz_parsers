@@ -32,12 +32,6 @@ def get_agency_profile_details(agency_name):
 
 
 def get_agencies(page=''):
-    #main_url = 'https://clutch.co/agencies'
-    #main_url = 'https://clutch.co/seo-firms'
-    #main_url = 'https://clutch.co/directory/mobile-application-developers'
-    #main_url = 'https://clutch.co/web-developers'
-    #main_url = 'https://clutch.co/web-designers'
-    #main_url = 'https://clutch.co/agencies/design'
     main_url = 'https://clutch.co/developers/ecommerce'
     
     if page != '':
@@ -61,11 +55,6 @@ def get_agency_details(page='main'):
        agencies listed in the provided webpage in a list of dictionaries data structure
     """
     print "Processing page : {}".format(page)
-    #main_url = "https://clutch.co/seo-firms"
-    #main_url = "https://clutch.co/directory/mobile-application-developers"
-    #main_url = "https://clutch.co/web-developers"
-    #main_url = 'https://clutch.co/web-designers'
-    #main_url = 'https://clutch.co/agencies/design'
     main_url = 'https://clutch.co/developers/ecommerce'
     
     if page != 'main':
@@ -134,12 +123,6 @@ def write_to_excel(data):
 if __name__ == '__main__':
     start = time.time()
     # base url
-    #main_url = 'https://clutch.co/agencies'
-    #main_url = 'https://clutch.co/seo-firms'
-    #main_url = 'https://clutch.co/directory/mobile-application-developers'
-    #main_url = 'https://clutch.co/web-developers'
-    #main_url = 'https://clutch.co/web-designers'
-    #main_url = 'https://clutch.co/agencies/design'
     main_url = 'https://clutch.co/developers/ecommerce'
 
     # intial request
